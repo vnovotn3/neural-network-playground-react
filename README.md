@@ -13,9 +13,9 @@ Key features are:
 * step by step or continuous simulation of the training process (up to 9999 epochs)
 
 App logic is divided into following core JS modules:
-* **canvas.js** is dealing with rendering input and output of NN in canvas square
-* **network.js** manges network topology and tensorflow model and renders UI representaion of the network
-* **fileUpload.js** handles processing of input loaded from a .txt file
-* **data.js** containes 3 input presets
+* **canvas.ts** is dealing with rendering input and output of NN in canvas square
+* **network.ts** manges network topology and tensorflow model and renders UI representaion of the network
+* **fileUpload.ts** handles processing of input loaded from a .txt file
+* **data.ts** containes 3 input presets
 
-The app is running here: https://vnovotn3.github.io/neural-network-playground/
+The app is running here: https://vnovotn3.github.io/neural-network-playground-react/

@@ -1,34 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8" >
-    <meta name="viewport" content="width=device-width, initial-scale=1" >
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Neural Network Playground</title>
     <meta
       name="description"
       content="This website serves as an interactive visualization of a feedforward neural network."
-    >
+    />
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css"
-    >
-    <link rel="stylesheet" href="css/main.css" >
-    <link rel="icon" href="img/icon.svg" type="image/svg+xml" >
+    />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="icon" href="img/icon.svg" type="image/svg+xml" />
     <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@latest"></script>
   </head>
   <body>
-    <!-- offline detector -->
-    <div id="offline">
-      You are currently offline. If you won't reload the page, everthing will
-      continue working.
-    </div>
-
     <!-- navigation -->
     <nav class="navbar" aria-label="main navigation">
       <div class="container">
         <div class="navbar-brand">
           <a class="navbar-item logo" href="/">
-            <img src="img/icon.svg" alt="logo">
+            <img src="img/icon.svg" alt="logo" />
             <p>Neural Network Playground</p>
           </a>
 
@@ -71,9 +65,11 @@
     <!-- header with controls -->
     <header class="controls container">
       <div>
-        <button id="restart"><img src="img/restart.svg" alt="restart"></button>
+        <button id="restart">
+          <img src="img/restart.svg" alt="restart" />
+        </button>
         <button id="play" autofocus></button>
-        <button id="step"><img src="img/next.svg" alt="next"></button>
+        <button id="step"><img src="img/next.svg" alt="next" /></button>
         <div class="pl-6 epochs-cont">
           <span class="control-label">Epochs</span>
           <span id="epochs">0.000</span>
@@ -160,9 +156,24 @@
                 it from file.
               </p>
               <div class="presets">
-                <img class="dataset" id="d0" src="img/input1.png" alt="dataset 0">
-                <img class="dataset" id="d1" src="img/input2.png" alt="dataset 1">
-                <img class="dataset" id="d2" src="img/input3.png" alt="dataset 2">
+                <img
+                  class="dataset"
+                  id="d0"
+                  src="img/input1.png"
+                  alt="dataset 0"
+                />
+                <img
+                  class="dataset"
+                  id="d1"
+                  src="img/input2.png"
+                  alt="dataset 1"
+                />
+                <img
+                  class="dataset"
+                  id="d2"
+                  src="img/input3.png"
+                  alt="dataset 2"
+                />
               </div>
               <button id="upload" class="mt-5">Upload from file</button>
             </div>
@@ -204,11 +215,6 @@
       </div>
     </main>
 
-    <!-- audio -->
-    <audio loop>
-      <source src="music/music.mp3" type="audio/mpeg" >
-    </audio>
-
     <!-- file upload modal -->
     <div class="modal">
       <div class="modal-background"></div>
@@ -216,18 +222,18 @@
         <div class="upload-box p-5">
           <h1>Upload dataset</h1>
           <p class="pb-2 pt-4 pb-5">
-            You can only upload .txt file with following format:<br>
-            - Each line of the file will represent one point in the dataset.<br>
+            You can only upload .txt file with following format:<br />
+            - Each line of the file will represent one point in the dataset.<br />
             - Each line will consist of 3 strings <b>X Y L</b> seperated by
-            spaces.<br>
+            spaces.<br />
             - X and Y will be float numbers in interval
-            <b>&lt;-500, 500&gt;</b>.<br>
+            <b>&lt;-500, 500&gt;</b>.<br />
             - L will be label of the point with value <b>green</b> or
             <b>yellow</b>. - Example of one line: <i>110.5 -234.6 green</i>
           </p>
           <div class="file has-name">
             <label class="file-label">
-              <input class="file-input" id="file" type="file" name="resume">
+              <input class="file-input" id="file" type="file" name="resume" />
               <span class="file-cta"> Choose a file… </span>
               <span class="file-name"> Nothing uploaded </span>
             </label>
@@ -239,7 +245,6 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="js/navbar.js"></script>
-    <script src="js/offline.js"></script>
     <script src="js/responsive.js"></script>
     <script type="module" src="js/fileUpload.js"></script>
     <script type="module" src="js/canvas.js"></script>

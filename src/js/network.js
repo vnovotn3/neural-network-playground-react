@@ -247,8 +247,7 @@ class Network {
       epochs: epochs,
       callbacks: {
         onTrainBegin: async () => {
-          //start animations and audio
-          document.querySelector("audio").play();
+          //start animations
           $("#play").toggleClass("active");
           $("#edges").toggleClass("active");
         },
@@ -264,8 +263,7 @@ class Network {
           }
         },
         onTrainEnd: async () => {
-          //end animations and audio
-          document.querySelector("audio").pause();
+          //end animations
           $("#play").toggleClass("active");
           $("#edges").toggleClass("active");
         },

@@ -1,0 +1,88 @@
+.controls {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+  margin-bottom: 0 !important;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.controls > div {
+  display: flex;
+  align-items: center;
+}
+.controls button {
+  background: none;
+  border: none;
+  padding: 0.5rem;
+  transition: 100ms ease all;
+}
+.controls button:hover {
+  opacity: 0.6;
+  cursor: pointer;
+  transform: scale(1.1);
+}
+#restart {
+  height: 3.5rem;
+  width: 3.5rem;
+  background: url(../img/restart.svg) no-repeat center center !important;
+  object-fit: contain;
+}
+#step {
+  height: 3.5rem;
+  width: 3.5rem;
+  background: url(../img/next.svg) no-repeat center center !important;
+  object-fit: contain;
+}
+#play {
+  height: 3.8rem;
+  width: 3.8rem;
+  margin: 0 0.8rem;
+  border-radius: 4rem;
+  padding: 0.2rem !important;
+  background: url(../img/play.svg) no-repeat center center !important;
+  background-color: var(--violet) !important;
+}
+#play.active {
+  background: url(../img/pause.svg) no-repeat center center !important;
+  background-color: var(--violet) !important;
+  animation: flashing 800ms ease infinite;
+}
+#play:hover {
+  opacity: 1 !important;
+  background-color: var(--violet-2) !important;
+}
+.control-label {
+  color: var(--text-2);
+  display: block;
+  font-size: 0.9rem;
+}
+#epochs {
+  display: block;
+  font-size: 1.5rem;
+}
+.control-input {
+  width: 10rem;
+  font-size: 1.2rem;
+  background: transparent;
+  border: none;
+  padding-left: 0;
+  padding-top: 0.4rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px var(--text-3) solid;
+  -webkit-appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border-radius: 0;
+  background: url(../img/dropdown.svg) no-repeat right;
+}
+_::-webkit-full-page-media,
+_:future,
+:root .control-input {
+  padding-top: 0.3rem;
+  padding-bottom: 0.4rem;
+}
+.control-input:focus {
+  outline: none;
+  border-color: var(--violet);
+}

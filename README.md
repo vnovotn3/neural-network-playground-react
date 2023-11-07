@@ -1,6 +1,10 @@
 # Neural Network Playground
 
-This web app provides a playground for building your own neural network for classification 2D points in the plane. 
+This is a showcase web app using React and TypeScript. If you're looking for a front-end web or mobile developer (React & React Native) send me a message on LinkedIn: https://linkedin.com/in/vojtech-novotny-83134277
+
+-----
+
+This React app provides a playground for building your own neural network for classification 2D points in the plane. 
 
 The training of the network is implemented using Tensorflow JS library: https://www.tensorflow.org/js
 
@@ -11,11 +15,5 @@ Key features are:
 * drawing input points in canvas or choosing a preset
 * uploading input points from a .txt file
 * step by step or continuous simulation of the training process (up to 9999 epochs)
-
-App logic is divided into following core JS modules:
-* **canvas.ts** is dealing with rendering input and output of NN in canvas square
-* **network.ts** manges network topology and tensorflow model and renders UI representaion of the network
-* **fileUpload.ts** handles processing of input loaded from a .txt file
-* **data.ts** containes 3 input presets
 
 The app is running here: https://vnovotn3.github.io/neural-network-playground-react/

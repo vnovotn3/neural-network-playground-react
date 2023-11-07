@@ -1,0 +1,102 @@
+.left-panel {
+  width: 22rem;
+  height: 100%;
+}
+.left-panel p {
+  color: var(--light-text);
+  font-size: 0.9rem;
+}
+
+.left-panel .color {
+  height: 2.1rem;
+  width: 2.1rem;
+  border-radius: 2rem;
+  border: white 0.45rem solid;
+  cursor: pointer;
+}
+.left-panel #blue {
+  background-color: var(--violet);
+}
+.left-panel #blue.selected {
+  border-color: var(--violet-light-1);
+}
+.left-panel #blue:hover {
+  border-color: var(--violet-light-1);
+}
+.left-panel #blue.selected:hover {
+  border-color: var(--violet-light-2);
+}
+.left-panel #yellow {
+  background-color: var(--yellow);
+  margin-left: 0.2rem;
+}
+.left-panel #yellow.selected {
+  border-color: var(--yellow-light-1);
+}
+.left-panel #yellow:hover {
+  border-color: var(--yellow-light-1);
+}
+.left-panel #yellow.selected:hover {
+  border-color: var(--yellow-light-2);
+}
+
+.canvas-cont {
+  width: 100%;
+  aspect-ratio: 1;
+  border-radius: 0.6rem;
+  cursor: crosshair;
+  position: relative;
+  box-shadow: 0px 5px 50px 0px var(--shadow);
+}
+.canvas-cont canvas {
+  width: 100%;
+  aspect-ratio: 1;
+  border-radius: 0.8rem;
+  vertical-align: bottom;
+}
+
+#canvas1 {
+  opacity: 0.5;
+  background-color: white;
+  position: relative;
+}
+
+#canvas2 {
+  border: 2px var(--border) solid;
+  z-index: 2;
+  cursor: crosshair;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+#canvas2:hover {
+  border-color: var(--violet);
+}
+
+#clear,
+#upload {
+  padding: 0.6rem 1.2rem;
+  border-radius: 0.5rem;
+}
+#upload {
+  padding: 0.7rem 1.2rem;
+  width: 100%;
+}
+.presets {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.dataset {
+  border: 2px solid var(--border);
+  width: 30%;
+  aspect-ratio: 1;
+  border-radius: 0.5rem;
+  /*border: 1.5px var(--light-gray) solid; */
+}
+.dataset:hover {
+  cursor: pointer;
+  border-color: var(--violet);
+  background-color: var(--bg-3);
+}

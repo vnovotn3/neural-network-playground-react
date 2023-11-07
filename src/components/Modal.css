@@ -1,0 +1,46 @@
+.modal-content {
+  display: flex;
+  justify-content: center;
+}
+.upload-box {
+  max-width: 30rem;
+  background-color: white;
+  border-radius: 1rem;
+}
+.upload-box p {
+  font-size: 0.9rem;
+}
+.file-cta {
+  border: none;
+}
+.file-cta {
+  color: var(--violet) !important;
+  font-size: 1rem;
+  border: none;
+  border-radius: 0.5rem;
+  background-color: var(--bg-2) !important;
+}
+.file-cta:hover {
+  color: var(--text-1) !important;
+  cursor: pointer;
+}
+.file-name {
+  color: var(--text-2);
+  font-size: 1rem;
+  border: none;
+  border-radius: 0.5rem;
+  background-color: var(--bg-1);
+}
+
+#submit {
+  color: white !important;
+  font-size: 1rem;
+  border: none;
+  border-radius: 0.5rem;
+  background-color: var(--violet) !important;
+}
+#submit:hover {
+  background-color: var(--violet-2) !important;
+  color: white !important;
+  cursor: pointer;
+}

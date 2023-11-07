@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/naural-network-playground-react/static/css/main.72c0fb22.css",
-    "main.js": "/naural-network-playground-react/static/js/main.cb2ca1db.js",
-    "static/media/input1.png": "/naural-network-playground-react/static/media/input1.c4bf28a03bb23f0acc49.png",
-    "static/media/input2.png": "/naural-network-playground-react/static/media/input2.60342679a6886df68b09.png",
-    "static/media/input3.png": "/naural-network-playground-react/static/media/input3.79ee6fce49258e400fc2.png",
-    "index.html": "/naural-network-playground-react/index.html",
-    "static/media/restart.svg": "/naural-network-playground-react/static/media/restart.360d0cdef2caf7859d67.svg",
-    "static/media/next.svg": "/naural-network-playground-react/static/media/next.7eade12f248242595692.svg",
-    "static/media/plus.svg": "/naural-network-playground-react/static/media/plus.8b2643ba25c937a8a147.svg",
-    "static/media/play.svg": "/naural-network-playground-react/static/media/play.a4912aab476a97cab976.svg",
-    "static/media/pause.svg": "/naural-network-playground-react/static/media/pause.54cbb789429550bd58e8.svg",
-    "static/media/minus.svg": "/naural-network-playground-react/static/media/minus.b851839fa414958f9549.svg",
-    "static/media/dropdown.svg": "/naural-network-playground-react/static/media/dropdown.825ab694900d94814ce9.svg",
-    "main.72c0fb22.css.map": "/naural-network-playground-react/static/css/main.72c0fb22.css.map",
-    "main.cb2ca1db.js.map": "/naural-network-playground-react/static/js/main.cb2ca1db.js.map"
+    "main.css": "/neural-network-playground-react/static/css/main.7129a1a9.css",
+    "main.js": "/neural-network-playground-react/static/js/main.205dba49.js",
+    "static/media/input1.png": "/neural-network-playground-react/static/media/input1.c4bf28a03bb23f0acc49.png",
+    "static/media/input2.png": "/neural-network-playground-react/static/media/input2.60342679a6886df68b09.png",
+    "static/media/input3.png": "/neural-network-playground-react/static/media/input3.79ee6fce49258e400fc2.png",
+    "index.html": "/neural-network-playground-react/index.html",
+    "static/media/restart.svg": "/neural-network-playground-react/static/media/restart.360d0cdef2caf7859d67.svg",
+    "static/media/next.svg": "/neural-network-playground-react/static/media/next.7eade12f248242595692.svg",
+    "static/media/plus.svg": "/neural-network-playground-react/static/media/plus.8b2643ba25c937a8a147.svg",
+    "static/media/play.svg": "/neural-network-playground-react/static/media/play.a4912aab476a97cab976.svg",
+    "static/media/pause.svg": "/neural-network-playground-react/static/media/pause.54cbb789429550bd58e8.svg",
+    "static/media/minus.svg": "/neural-network-playground-react/static/media/minus.b851839fa414958f9549.svg",
+    "static/media/dropdown.svg": "/neural-network-playground-react/static/media/dropdown.825ab694900d94814ce9.svg",
+    "main.7129a1a9.css.map": "/neural-network-playground-react/static/css/main.7129a1a9.css.map",
+    "main.205dba49.js.map": "/neural-network-playground-react/static/js/main.205dba49.js.map"
   },
   "entrypoints": [
-    "static/css/main.72c0fb22.css",
-    "static/js/main.cb2ca1db.js"
+    "static/css/main.7129a1a9.css",
+    "static/js/main.205dba49.js"
   ]
 }

@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/neural-network-playground-react/static/css/main.7129a1a9.css",
-    "main.js": "/neural-network-playground-react/static/js/main.205dba49.js",
+    "main.js": "/neural-network-playground-react/static/js/main.c05b919c.js",
     "static/media/input1.png": "/neural-network-playground-react/static/media/input1.c4bf28a03bb23f0acc49.png",
     "static/media/input2.png": "/neural-network-playground-react/static/media/input2.60342679a6886df68b09.png",
     "static/media/input3.png": "/neural-network-playground-react/static/media/input3.79ee6fce49258e400fc2.png",
@@ -14,10 +14,10 @@
     "static/media/minus.svg": "/neural-network-playground-react/static/media/minus.b851839fa414958f9549.svg",
     "static/media/dropdown.svg": "/neural-network-playground-react/static/media/dropdown.825ab694900d94814ce9.svg",
     "main.7129a1a9.css.map": "/neural-network-playground-react/static/css/main.7129a1a9.css.map",
-    "main.205dba49.js.map": "/neural-network-playground-react/static/js/main.205dba49.js.map"
+    "main.c05b919c.js.map": "/neural-network-playground-react/static/js/main.c05b919c.js.map"
   },
   "entrypoints": [
     "static/css/main.7129a1a9.css",
-    "static/js/main.205dba49.js"
+    "static/js/main.c05b919c.js"
   ]
 }

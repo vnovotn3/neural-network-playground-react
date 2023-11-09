@@ -1,6 +1,6 @@
 {
-  "homepage": "https://vnovotn3.github.io/naural-network-playground-react",
-  "name": "neural-network-playground",
+  "homepage": "https://vnovotn3.github.io/neural-network-playground-react",
+  "name": "neural-network-playground-react",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

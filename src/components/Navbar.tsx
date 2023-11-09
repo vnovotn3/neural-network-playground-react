@@ -4,7 +4,7 @@ export default function Navbar() {
   return (
     <nav className="navigation">
       <div className="container space-between">
-        <a className="logo" href="/">
+        <a className="logo" href="/neural-network-playground-react/">
           Neural Network Playground
         </a>
         <p className="middle">
